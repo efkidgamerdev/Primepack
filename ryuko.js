@@ -37,7 +37,7 @@ console.log('Auto Restart Bot Successfully Execute of exit process every 35 min'
       note: 'bot will update you on his informations like all users, all groups, all operators, all admins every 30 minutes'
     },
     greetings: {
-      status: true,
+      status: false,
       morning: `goodmorning everyone, have a nice day.`,
       afternoon: `goodafternoon everyone, don't forget to eat your lunch.`,
       evening: `goodevening everyone, don't forget to eat.`,
@@ -56,7 +56,7 @@ console.log('Auto Restart Bot Successfully Execute of exit process every 35 min'
       note: 'auto delete caches, kindly set the status to true, if you dont want to delete caches, set the status to false.'
     },
     autoRestart: {
-      status: true,
+      status: false,
       time: 40, // 40 minutes
       note: 'to avoid problems, enable periodic bot restarts, set the status to false if you want to disable auto restart function.'
     },

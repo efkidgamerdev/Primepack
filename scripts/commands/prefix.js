@@ -35,5 +35,5 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
 };
 
 module.exports.run = async({ event, api }) => {
-    return api.sendMessage("no prefix commands 😂😆", event.threadID)
+    return api.sendMessage("no prefix commands(;´༎ຶٹ༎ຶ`)", event.threadID)
 }

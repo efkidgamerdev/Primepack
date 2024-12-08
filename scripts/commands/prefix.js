@@ -28,7 +28,7 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
       if (config.PREFIX == null) {
         return api.shareContact(`Bot prefix: ${global.config.PREFIX}`, api.getCurrentUserID(), event.threadID);
       }
-      else return api.shareContact(`bot prefix : ${global.config.PREFIX}`, api.getCurrentUserID(), event.threadID);
+      else return api.shareContact(`𝙿𝚛𝚒𝚖𝚎 𝚙𝚛𝚎𝚏𝚒𝚡 : ${global.config.PREFIX} 𝑴𝒂𝒅𝒆 𝒘𝒊𝒕𝒉 ❥︎`, api.getCurrentUserID(), event.threadID);
     }
 
   });

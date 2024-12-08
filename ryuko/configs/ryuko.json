@@ -16,7 +16,7 @@
   "DESCRIPTION": "artificial intelligence is the future, and the future is here.",
   "allowInbox": false,
   "adminOnly": false,
-  "autoCreateDB": true,
+  "autoCreateDB": false,
   "encryptSt": true,
   "version": "4.0.0",
   "logs": {
@@ -26,7 +26,7 @@
     "cooldownTime": 1200000
   },
   "help": {
-    "autoUnsend": true,
+    "autoUnsend": false,
     "delayUnsend": 60
   },
   "adminUpdate": {

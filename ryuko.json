@@ -2,17 +2,17 @@
     "author": "ryukoAndCCPROJECTS",
     "developermode": false,
     "language": "en",
-    "notification": true,
+    "notification": false,
     "approval": true,
     "premium": false,
-    "BOTNAME": "",
-    "BOTOWNER": "",
-    "PREFIX": "!",
+    "BOTNAME": "ef-prime",
+    "BOTOWNER": "Frank dude",
+    "PREFIX": "/",
     "OPERATOR": [
         ""
     ],
     "ADMINBOT": [
-        ""
+        "61557780285734"
     ],
     "disabledcmds": [],
     "disabledevents": [],

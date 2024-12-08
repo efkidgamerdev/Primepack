@@ -132,7 +132,7 @@ module.exports.run = async function ({ api, event, args }) {
 
   const randomQuote = randomQuotes[Math.floor(Math.random() * randomQuotes.length)];
 
-  msg += `├─────☾⋆\n│ » Total commands: [ ${commands.size} ]\n│「 ☾⋆ PREFIX: ${global.config.PREFIX} 」\n╰──────────⧕\n\n𝗥𝗔𝗡𝗗𝗢𝗠 𝗙𝗔𝗖𝗧: ${randomQuote}\n\nOwner: ${global.config.BOTOWNER}`;
+  msg += `├─────☾⋆\n│ » Total commands: [ ${commands.size} ]\n│「 ఌ︎ PREFIX: ${global.config.PREFIX} 」\n╰──────────⧕\n\n𝗥𝗔𝗡𝗗𝗢𝗠 𝗙𝗔𝗖𝗧: ${randomQuote}\n\nOwner: ${global.config.BOTOWNER} 𝑴𝑨𝑫𝑬 𝑾𝑰𝑻𝑯 ♡︎`;
 
   return api.shareContact(msg, api.getCurrentUserID(), event.threadID);
 };
